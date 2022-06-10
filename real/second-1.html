@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Absolute Position</title>
+        <style>
+            * { margin: 0; padding: 0; }
+
+            #container {
+                width: 500px; height: 500px;
+
+                position: absolute;
+                left: 50%; top: 50%;
+                margin-left:-250px;
+                margin-top: -250px;
+            }
+            h1 {
+                text-align: center;
+            }
+            .box1 {
+                width:379px;height:130px;border-radius:3px;
+                background:#33ff72
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <img src="dung.png"
+            style="display:block;margin:0 auto;width:174px;height:250px;"
+            />
+            <div
+            style="height: 30px" background="white"></div>
+            <div
+            style=width:379px;height:130px;border-radius:20px;background-color:#33ff72></div>
+        </div>
+    </body>
+</html>

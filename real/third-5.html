@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Absolute Position</title>
+        <style>
+            * { margin: 0; padding: 0; }
+
+            #container {
+                width: 500px; height: 500px;
+
+                position: absolute;
+                left: 50%; top: 50%;
+                margin-left:-250px;
+                margin-top: -250px;
+            }
+            .box1 {
+                width:379px;height:130px;border-radius:3px;
+                background:#33ff72
+            }
+            .a{ font-size: 22px;font-weight: bold; margin-left: 72px; }
+            .b{ font-size: 22px;font-weight: medium;  margin-left: 72px; }
+            .c{ font-size: 22px;font-weight : bold; margin-left: 72px; color:red;}
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <p class="a">주의사항</p>
+            <br>
+            <p class="b">이 어플은 사용자가 입력한 증상만으로<br>병을 추정하는것으로, 정확한 진단이<br>아닙니다.</p>
+            <br>
+            <p class="c">반드시 의사의 진단을 우선 해주세요</p>
+            <div
+            style="height: 106px" background="white"></div>
+            <img src="의사양반.png"
+            style="display:block;margin:0 auto;width:176px;height:218px;"
+            />
+        </div>
+    </body>
+</html>
