@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Absolute Position</title>
+        <style>
+            * { margin: 0; padding: 0; }
+
+            #container {
+                width: 500px; height: 500px;
+
+                position: absolute;
+                left: 50%; top: 50%;
+                margin-left:-250px;
+                margin-top: -250px;
+            }
+            h1 {
+                text-align: center;
+            }
+            .box1 {
+                width:379px;height:130px;border-radius:3px;
+                background:#33ff72
+            }
+            .a{ font-size: 22px;font-weight: bold; margin-left: 72px; }
+            .b{ font-size: 22px;font-weight: medium; }
+            .c{ font-size: 22px;font-weight : bold;}
+            .d{ height:58px;font-size: 22px;font-weight: bold; margin-left:110px;}
+            .e{ font-size: 22px;font-weight: medium; margin-left: 72px; }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <p style="display:inline" class="e">증상이<p style="display:inline" class="c"> 3일</p><p style="display:inline" class="b">이상 유지되거나 악화되고<br><p style="display:inline" class="e">있나요?</p>
+            <br>
+            <br>
+            <input id="yes" type="radio" name="answer" value="y"
+            style="margin-left: 72px;">
+            <label for="yes">예</label>
+            <input id="no" type="radio" name="answer" value="n"
+            style="margin-left: 115px;">
+            <label for="no">아니요</label>
+            <div
+            style="height: 31px;" background="white"></div>
+            <p style="display:inline" class="e">최근 평소에 비교하여 <p style="display:inline" class="c">과도한 운동이나<br><p style="display:inline" class="a">노동</p><p style="display:inline" class="b">을 한적이 있나요?</p>
+            <br>
+            <input id="yes" type="radio" name="answer" value="y"
+            style="margin-left: 72px;">
+            <label for="yes">예</label>
+            <input id="no" type="radio" name="answer" value="n"
+            style="margin-left: 115px;">
+            <label for="no">아니요</label>
+            <div
+            style="height: 31px;" background="white"></div>
+            <div
+            style="height: 31px;" background="white"></div>
+            <p style="display:inline" class="a">보호자</p><p style="display:inline" class="b">를</p><p style="display:inline" class="c"> 동행</p><p style="display:inline" class="b"></p>하실 수 있나요?</p>
+            <br>
+            <input id="yes" type="radio" name="answer" value="y"
+            style="margin-left: 72px;">
+            <label for="yes">예</label>
+            <input id="no" type="radio" name="answer" value="n"
+            style="margin-left: 115px;">
+            <label for="no">아니요</label>
+            <div
+            style="height: 31px;" background="white"></div>
+            <div
+            style="height: 36px;" background="white"></div>
+            <img src="dd.png"
+            style="display:block;margin:0 356px;width:48;height:48px;"
+            onclick="history.back();";
+            />
+            <div
+            style="height:35px;" background="white"></div>
+            <div
+            style=width:249px;height:58px;margin:auto;border-radius:29px;background-color:#33ff72>
+            <p class="d">완료</p>
+    </body>
+</html>
