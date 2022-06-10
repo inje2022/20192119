@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Absolute Position</title>
+        <style>
+            * { margin: 0; padding: 0; }
+
+            #container {
+                width: 500px; height: 500px;
+
+                position: absolute;
+                left: 50%; top: 50%;
+                margin-left:-250px;
+                margin-top: -250px;
+            }
+            .box1 {
+                width:379px;height:130px;border-radius:3px;
+                background:#33ff72
+            }
+            .a{ font-size: 22px;font-weight: bold; margin-left: 72px; }
+            .b{ font-size: 22px;font-weight: medium; }
+            .c{ font-size: 22px;font-weight : bold;}
+            .d{ height:58px;font-size: 22px;font-weight: bold; margin-left:61px;}
+            .e{ font-size: 22px;font-weight: medium; margin-left: 72px; }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <p class="a">주의사항</p>
+            <br>
+            <p style="display:inline" class="e">이 기능은 가장 <p style="display:inline" class="c">가까운 거리<p style="display:inline" class="b">에 있는<br><p class="e">병원을 우선적으로 검색 합니다.</p>
+            <br>
+            <br>
+            <div
+            style="height: 106px;" background="white"></div>
+            <img src="gd.png"
+            style="display:block;margin:0 auto;width:248px;height:268px;"
+            />
+            <div
+            style="height: 36px;" background="white"></div>
+            <img src="dd.png"
+            style="display:block;margin:0 356px;width:48;height:48px;"
+            onclick="history.back();";
+            />
+            <div
+            style="height:35px;" background="white"></div>
+            <div
+            style=width:249px;height:58px;margin:auto;border-radius:29px;background-color:#33ff72>
+            <p class="d">자가진단 시작</p>
+            </div>
+        </div>
+    </body>
+</html>
